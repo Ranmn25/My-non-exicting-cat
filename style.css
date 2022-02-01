@@ -1,0 +1,94 @@
+body {
+  background-color: rgb(235, 235, 235);
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  font-family: 'Merriweather', serif;
+}
+
+p{
+  font-family: 'Merriweather', serif;
+}
+
+img{
+  width: 150px;
+  border-radius: 50%;
+}
+
+h1{
+  font-family: 'Short Stack', cursive;
+  font-size: 30px;
+  color: #0a0d1a
+}
+
+h2{
+  color: #295a66;
+  font-size: 20px;
+}
+
+.prp_btn{
+  background-color: #6B72E1;
+  color: white;
+  text-decoration: none;
+  font-size:  15px;
+  font-family: Roboto, sans-serif;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.prp_btn:hover{
+  color: #444a9c
+}
+
+.social_links {
+  padding: 0;
+  list-style: none;
+  color: #6B72E1;
+  font-size: 18px;
+}
+
+.social_links li {
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 30px;
+}
+
+.general_card{
+  background-color: rgb(235, 235, 235);
+  border: solid 1px rgb(180,180,180);
+  border-radius: 4px;
+  padding: 20px;
+  width: 650px;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+#linkedinbtn:hover{
+  color: #444a9c
+}
+
+#twitterbtn:hover{
+  color: #444a9c
+}
+
+#pawbtn:hover{
+  color: #444a9c
+}
+
+@media (max-width: 960px) {
+  .general_card {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .general_card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .general_card {
+    width: 300px;
+  }
+}
